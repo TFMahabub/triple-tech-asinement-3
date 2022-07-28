@@ -215,22 +215,56 @@
 
 <!-- ------------------ready-to-join----------------- -->
 
-<section class="container my-5">
-  <div class="row p-5 bg-primary rounded">
-    <div class="col-lg-6 col-md-12">
-      <div class="d-flex flex-column align-items-lg-start align-items-md-center align-items-sm-center justify-content-center">
-        <h1 class="font-600 text-white text-md-center display-7">Ready to join?</h1>
-        <p class="text-white text-lg-start text-md-center text-sm-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-      </div> 
-    </div>
-    
-    <div class="col-lg-6 col-md-12 d-flex flex-column align-items-lg-end align-items-md-center align-items-sm-center justify-content-center mt-3">
-        <div>
-          <button class="btn btn-danger bg-white text-primary border-0 font-600">Register Now</button>
-        </div>
-    </div>
+<div class="container bg-primary my-5 p-5 rounded">
+  <div class="row d-flex align-items-center">
+      <div class="col-12 col-md-12 col-lg-6 text-white text-center text-md-center text-lg-start">
+          <h1 class="fw-bold mb-2">
+              Interested to join now?
+          </h1>
+          <p>If You are interested about our course. Then make a quick decision and join early. For
+              Joining
+              Please Register First</p>
+      </div>
+
+      <div class="col-12 col-md-12 col-lg-6 text-center text-md-center text-lg-end">
+          <a class="btn bg-white text-primary fw-bold" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Register Now</a>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content text-start">
+                      <div class="modal-body">
+                          <form>
+                              <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1"
+                                      aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text">We'll never share your email with
+                                      anyone else.</div>
+                              </div>
+                              <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Accept Our <a
+                                          href="#">Terms
+                                          And Condition</a></label>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-primary"
+                              data-bs-dismiss="modal">Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
-</section>
+</div>
 
 <!-- ------------------------student's-------------------------- -->
 <section class="container">
@@ -294,7 +328,7 @@
   <div class="row gx-5">
 
     <!-- -----------left-side------------ -->
-    <div class="col-lg-6 col-12 my-5">
+    <div class="col-12 mx-auto col-lg-6 my-5">
       <div class="d-flex justify-content-lg-between justify-content-md-between justify-content-sm-between align-items-center">
         <img  src="img/comma.png" alt="">
         <div>
