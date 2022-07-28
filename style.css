@@ -19,3 +19,6 @@
 .company-logo-width{
   max-width: 110px;
 }
+.background-img{
+  background-image: linear-gradient(rgba(#000 70%));
+}
