@@ -24,3 +24,6 @@
 .company-logo-width{
   max-width: 110px;
 }
+.carousel-item img{
+  height: 90vh;
+}
